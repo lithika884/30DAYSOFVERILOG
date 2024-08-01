@@ -1,0 +1,35 @@
+timescale 1ns / 1ps
+
+module half_adder(
+input a , b,
+output s ,cin
+
+    );
+    
+// DataFlow modelling 
+    
+ assign s = a ^b;
+ assign cin = a&b;
+endmodule
+
+
+
+module fulladderfromha(
+input a,b,c,
+output s,cin
+
+    );
+    
+wire t1,t2,t3;
+
+
+
+// Structural modelling 
+
+half_adder ha0(a,b,t2,t1);
+half_adder ha1(c,t2,s,t3);
+
+assign cin = t1|t3;
+ 
+ 
+endmodule
