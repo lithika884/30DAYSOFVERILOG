@@ -11,6 +11,10 @@ This repository chronicles my exploration of Verilog HDL through the creation of
 ### PROJECT ROADMAP
 [Insert detailed roadmap table or visual]
 
+### TABLE OF CONTENTS 
+
+DAY 1 : 
+
 ## CONTRIBUTING 
 Your input is invaluable! Feel free to:
 * Open issues for questions or suggestions
